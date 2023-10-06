@@ -77,7 +77,7 @@ const MapComponent: FC = () => {
                         className="flex-grow p-2 border rounded-md bg-white disabled:opacity-100 pr-10"
                         required
                         disabled={isLoading}
-                        placeholder="Search anywhere"
+                        placeholder="Search location"
                         {...field}
                       />
                     </FormControl>
